@@ -1,0 +1,26 @@
+/*定义变量*/
+
+$dark_blue: #5168b6;
+$base_blue: #2585e6;
+$light_blue: #a6ccf3;
+$light_bg_blue: #e6f0fa;
+$lighten_bg_blue: #d3e7fa;
+$row_blue: #ECF6FD;
+$base_gray: #9f9f9f;
+$label_gray: #717171;
+$light_grey: #ebeef5;
+$img_url: '/static/imgs';
+// $img_url: '/icrm/imgs';
+$font_size_base: 14px;
+/*定义mixin*/
+
+@mixin inline-div($width) {
+    display: inline-block;
+    width: $width;
+}
+
+@mixin relative-top-left($top, $left) {
+    position: relative;
+    top: $top;
+    left: $left;
+}

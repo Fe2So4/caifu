@@ -1,0 +1,39 @@
+export default {
+    state: {
+        enum: 'enum/fetch',
+        enumSpecial: 'employee/privilege',
+        org: 'enum/fetch/org',
+        bank: 'enum/fetch/bank',
+        employee: 'enum/fetch/employee',
+        //获取基本法类型和状态
+        basiclawType: 'enum/fetch/base-basic-law',
+        basiclawState: 'enum/fetch/basic-law-state',
+        lawranks: 'enum/fetch/rank',
+        nextStatusForBasicLawAudit: 'enum/fetch/law-next-states',
+        //收入/考核修改的状态和类型
+        incomeReviseStates: 'enum/fetch/income-revise-state',
+        incomeReviseTypes: 'enum/fetch/income-revise-types',
+        nextStatusForIncomeReviseAudit: 'enum/fetch/income-revise-next-states',
+
+        //收入管理的操作类型
+        incomeManageTypes: 'enum/fetch/manage-income-actions',
+        //考核管理的操作类型
+        examManageTypes: 'enum/fetch/manage-levelup-actions',
+        //业务员类型和用户类型
+        employeeType: 'enum/fetch/employee-type',
+        employeeCategory: 'enum/fetch/employee-category',
+        //获取省市
+        province: 'enum/fetch/province',
+        city: 'enum/fetch/city',
+        //经代公司简称
+        cooagency: 'enum/fetch/cooagency',
+        //保险公司
+        inscom: 'enum/fetch/insCompany',
+        //学历
+        education: 'enum/fetch/employee-edu',
+
+        //获取权限的地址
+        // authUrl: 'http://192.168.176.1:8080/tabycore/userrole/findButtonByUserCodeAndPage',
+        authUrl: 'api/get/authority',
+    },
+}
